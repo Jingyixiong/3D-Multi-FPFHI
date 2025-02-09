@@ -1,0 +1,14 @@
+# PyTorch with CUDA 11.8
+hydra-core==1.2
+omegaconf
+pandas
+open3d
+scikit-learn
+seaborn
+
+timm
+tqdm
+matplotlib
+Pillow
+opencv-python
+tifffile

@@ -1,0 +1,62 @@
+general:
+  root: 'infra_3DALv2'
+  sample_voxel: 0.02
+  inspect_target: 'tunnel'    # 'real_arch', 'syn_arch', 'tunnel'
+
+  realarch_src: 'real_arch_src'
+  realarch_tg: 'real_arch_tg'
+  synarch_src: 'syn_arch_src'
+  synarch_tg: 'syn_arch_tg'
+  tunnel: 'tunnel'               # we did not implement CMPF for tunnel
+
+  realarch_names: ['North', 'South']
+  synarch_names:  [
+        'disp_x_cw0.4', 
+        'disp_x_cw0.8', 
+        'disp_x_40cm',   # x displacement
+         # different displacement
+        'disp_x_8cm',
+        'disp_x_12cm',
+        'disp_x_16cm',
+        # # different displacement without inner crack
+        'disp_x_8cm_noinnerc',
+        'disp_x_12cm_noinnerc',
+        'disp_x_16cm_noinnerc',
+        'disp_z', 
+        'disp_xz', 
+        'rot_x',
+        ]
+  tunnel_names: ['76', '89', '96', '103']
+
+renderer:
+  _target_: multi_view_projector.multi_view_render.RenderALL
+  root_p: ${general.root}
+  realarch_src: ${general.realarch_src}
+  realarch_tg: ${general.realarch_tg}
+  synarch_src: ${general.synarch_src}
+  synarch_tg: ${general.synarch_tg}
+
+  sample_voxel: ${general.sample_voxel}
+  color_render: 'intensity'
+
+al_detector:
+  _target_: patchcore.alrunner.ALRunner
+  root_p: ${general.root}
+  realarch_dn: ${general.realarch_tg}
+  synarch_dn: ${general.synarch_tg}
+  tunnel_dn: ${general.tunnel}
+             
+  sample_voxel: ${general.sample_voxel}
+  mesh_size: 0.02
+  f_extractor_n: 'FPFH_Self'                  # changing it could introduce errors
+  feature_types: [
+    'FPFH', 
+    'naiveRGB',
+    'relaRGB', 
+    'FPFH_relaRGB', 
+    'rgb_img', 
+    'rgb_img_FPFH'
+    ]
+  radius_fs_ratios: [50]                      # [50] for synthetic and real masonry bridges, [30] for tunnel
+  anomaly_vis: True                           # visualize the anomaly detection results
+  display: 'heatmap'                          # display the anomaly detection results in either 'heatmap' or 'binary'

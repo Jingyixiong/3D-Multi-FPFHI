@@ -1,0 +1,8 @@
+/__pycache__/
+*/__pycache__/
+*/**/__pycache__/
+*.pyc
+
+outputs/
+infra_3DALv2/
+.vscode/
