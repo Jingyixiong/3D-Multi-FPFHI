@@ -38,7 +38,7 @@ The algorithm can be used for computing anomalies on large-scale infrastructure 
   '++general.inspect_target="syn_arch"' 
   '++general.synarch_names=["disp_x_40cm", "disp_z", "disp_xz", "rot_x"]'
 ```
-- (3) Only on varying support movement magnitude(It is not included in this paper for the lenght limit. Though it is a good demonstration for comparing the difference on whether or not adding new surfaces on the synthetic dataset.)
+- (3) Only on varying support movement magnitude(It is not included in this paper for the length limit. Though it is a good demonstration for comparing the difference on whether or not adding new surfaces on the synthetic dataset.)
 ```python
   python main.py 
   '++general.inspect_target="syn_arch"' 
