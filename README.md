@@ -15,7 +15,7 @@ This code has been tested with Python 3.8, CUDA 11.8, and Pytorch 2.0.1 on Ubunt
 ```
 
 ## Dataset 
-All datasets are available in [here](https://huggingface.co/datasets/jing222/infra_anomaly_detection/tree/main). Please download the data.zip file and unzip all datasets in the `\data` path for replicating our results.
+All datasets are available in [here](https://huggingface.co/datasets/jing222/infra_3DAL/tree/main). Please download the data.zip file and unzip all datasets in the `\infra_3DALv2` path for replicating our results.
 
 ## Usage
 The algorithm can be used for computing anomalies on large-scale infrastructure point clouds.
