@@ -1,6 +1,6 @@
 # A 3D Multimodal Feature for Infrastructure Anomaly Detection
 
-This algorithm is designed to detect structural defects by leveraing anomaly detection from infrastructure point clouds. For simplicity, we integrated all functions from our previous paper: [**Anomaly detection of cracks in synthetic masonry arch bridge point clouds using fast point feature histograms and PatchCore**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4819836) into this repository.
+This algorithm is designed to detect structural defects by leveraing anomaly detection from infrastructure point clouds. For simplicity, we integrated all functions from our previous paper: [**Anomaly detection of cracks in synthetic masonry arch bridge point clouds using fast point feature histograms and PatchCore**](https://www.sciencedirect.com/science/article/pii/S0926580524005028) into this repository.
 
 ## Authors
 - [Yixiong Jing](https://www.researchgate.net/profile/Yixiong_Jing2), [Wei Lin](https://www.researchgate.net/profile/Wei-Lin-126), [Brian Sheil](https://www.construction.cam.ac.uk/staff/dr-brian-sheil), [Sinan Acikgoz](https://eng.ox.ac.uk/people/sinan-acikgoz/)
