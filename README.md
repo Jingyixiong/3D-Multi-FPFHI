@@ -73,9 +73,8 @@ Comparison of different feature types in anomaly detection:
 ![Results](/img/realtunnel_result.jpg)
 
 ## Citations
-
 If you find the code is beneficial to your research, please consider citing:
-
+```bibtex
 @article{jing2024anomaly,
   title={Anomaly detection of cracks in synthetic masonry arch bridge point clouds using fast point feature histograms and PatchCore},
   author={Jing, Yixiong and Zhong, Jia-Xing and Sheil, Brian and Acikgoz, Sinan},
@@ -92,6 +91,7 @@ If you find the code is beneficial to your research, please consider citing:
   journal={arXiv preprint arXiv:2502.05779},
   year={2025}
 }
+```
 
 ## Acknowledge
 We used some code from [CPMF](https://github.com/caoyunkang/CPMF) to make comparisons in our work. We would like to thank you for your sharing.
