@@ -94,7 +94,8 @@ If you find the code is beneficial to your research, please consider citing:
 ```
 
 ## Acknowledge
-We used some code from [CPMF](https://github.com/caoyunkang/CPMF) to make comparisons in our work. We would like to thank you for your sharing.
+We used some code from [CPMF](https://github.com/caoyunkang/CPMF) to make comparisons in our work. We would like to thank them for their sharing.
+
 
 ## License
 Our work is subjected to MIT License.
