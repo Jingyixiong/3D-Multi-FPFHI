@@ -15,7 +15,7 @@ This code has been tested with Python 3.8, CUDA 11.8, and Pytorch 2.0.1 on Ubunt
 ```
 
 ## Dataset 
-All datasets are available [here](https://huggingface.co/datasets/jing222/infra_3DAL/tree/main). Please download the data.zip file and unzip all datasets in the `\infra_3DALv2` path for replicating our results.
+`Crack3D-Defect` is a multimodal 3D point cloud dataset designed for anomaly detection in infrastructure components such as masonry arches and tunnel rings. It includes synthetic data generated from FEM simulations and real scans of infrastructure collected at multiple time steps. It is available [here](https://huggingface.co/datasets/jing222/infra_3DAL/tree/main). Please download the data.zip file and unzip all datasets in the `\infra_3DALv2` path to reproduce our results.
 
 ## Usage
 The algorithm can be used for computing anomalies on large-scale infrastructure point clouds.
