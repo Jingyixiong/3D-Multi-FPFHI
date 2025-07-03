@@ -1,4 +1,4 @@
-# [A 3D Multimodal Feature for Infrastructure Anomaly Detection](https://arxiv.org/abs/2502.05779)
+# [3D Multimodal Feature for Infrastructure Anomaly Detection](https://arxiv.org/abs/2502.05779)
 
 This paper proposed a method to detect structural defects by leveraging anomaly detection from infrastructure point clouds. For simplicity, we integrated all functions from our previous paper: [**Anomaly detection of cracks in synthetic masonry arch bridge point clouds using fast point feature histograms and PatchCore**](https://www.sciencedirect.com/science/article/pii/S0926580524005028) into this repository.
 
