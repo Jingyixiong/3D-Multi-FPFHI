@@ -86,10 +86,13 @@ If you find the code is beneficial to your research, please consider citing:
 }
 
 @article{jing20253d,
-  title={A 3D Multimodal Feature for Infrastructure Anomaly Detection},
+  title={3D multimodal feature for infrastructure anomaly detection},
   author={Jing, Yixiong and Lin, Wei and Sheil, Brian and Acikgoz, Sinan},
-  journal={arXiv preprint arXiv:2502.05779},
-  year={2025}
+  journal={Automation in Construction},
+  volume={178},
+  pages={106388},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
